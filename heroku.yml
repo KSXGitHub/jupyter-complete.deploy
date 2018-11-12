@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: 'docker run -it -p 8888:8888 hvksmr1996/jupyter-complete:master'
